@@ -14,5 +14,3 @@ class Logger:
     def warn(msg):
         print(bcolors.WARNING + "Warning: " + msg + bcolors.ENDC)
 
-
-Logger.warn('What do you want ?')
